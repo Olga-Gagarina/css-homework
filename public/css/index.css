@@ -13,7 +13,8 @@ h1 {
 section  p.child {
     background: red;
 }
-section  div.box { background: green;}
+section  .box { background: green;}
+section  p {background: red;}
 .brown {
     background: brown;
     color: white;
@@ -47,7 +48,7 @@ p.susid~p {
 .lesson-three-task-seven li[class*="on"] {background: white; color: green;}
 .lesson-three-task-eight span[class $="s"] {background: white; color: blue;}
 .lesson-three-task-nine h2::first-letter {color: red;}
-.lesson-three-task-ten p::first-line {background: yellow;}
+.lesson-three-task-ten p:first-child::first-line {background: yellow;}
 .lesson-three-task-eleven input::placeholder { background: red;}
 .lesson-three-task-twelve li::before { content: "➤";}
 .lesson-three-task-thirteen li::after { content: "➤";}
